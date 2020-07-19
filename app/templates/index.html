@@ -1,0 +1,37 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='stylesheets/styles.css')}}">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content%}
+<div class="landingpage">
+    <div class="container-fluid">
+        <div class="text">
+            <h1 style="font-family: 'Satisfy', cursive;">Welcome to Personal Blog</h1>
+            <p>{{quotes.quote}}</p>
+            <p>{{quotes.author}}</p>
+            <a href="{{url_for('main.new_blog')}}" class="btn btn-primary">Add post</a> 
+             {% for blog in blogs %}
+                <h2>{{blog.title}}</h2>
+                  <p>{{blog.content}}</p>
+                  <p>{{blog.posted}}</p> 
+                  <p><strong>posted by: {{blog.user.username}}</strong></p>
+              <a href="{{url_for('main.new_comment',blog_id=blog.id)}}" class="btn btn-info">Comment</a>
+              
+             
+
+              {% endfor %}
+
+              
+              
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
