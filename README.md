@@ -1,12 +1,15 @@
 **Blog**
 
 **Author**
+
 Marion
+
 
 **Description**
 This is a web application that let a user create blog write the opinion or idea and also read and comment on post, display random quotes
 
 **User stories**
+
 As a user:
 
 I would like to view the blog posts on the site
@@ -21,6 +24,7 @@ I would also like to create a blog from the application.
 
 
 **Technology used**
+
 Python3.6
 Flask
 Bootstrap
@@ -55,9 +59,11 @@ Known Bugs
 they are no bugs
 
 **Contact Information**
+
 Any feedback contact this email marionvutagwa8@gmail.com
 
 **LICENCE**
+
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
