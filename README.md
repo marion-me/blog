@@ -1,11 +1,12 @@
-Personal Blog
-Author
-Khadija Hassan
+**Blog**
 
-Description
+**Author**
+Marion
+
+**Description**
 This is a web application that let a user create blog write the opinion or idea and also read and comment on post, display random quotes
 
-User stories
+**User stories**
 As a user:
 
 I would like to view the blog posts on the site
@@ -15,10 +16,11 @@ I would like to an email alert when a new post is made by joining a subscription
 I would like to see random quotes on the site
 I would like to sign in to the blog.
 I would also like to create a blog from the application.
-Live Link
+
+**Live Link**
 
 
-Technology used
+**Technology used**
 Python3.6
 Flask
 Bootstrap
@@ -52,10 +54,10 @@ $ pip install gunicorn
 Known Bugs
 they are no bugs
 
-Contact Information
+**Contact Information**
 Any feedback contact this email marionvutagwa8@gmail.com
 
-LICENCE
+**LICENCE**
 MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
