@@ -3,7 +3,7 @@ import os
 class Config:
 
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://marion:werule@localhost/blogging'
+    #SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://marion:pabo@localhost/blogging'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     QUOTE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
 
@@ -24,7 +24,7 @@ class ProdConfig(Config):
        
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://marion:mariame@localhost/blogging'
+    SQLALCHEMY_DATABASE_URL = 'postgresql+psycopg2://marion:pabo@localhost/blogging'
     DEBUG = True
 
 Config_options = {
